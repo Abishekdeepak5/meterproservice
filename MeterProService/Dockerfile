@@ -20,7 +20,7 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 # Expose port 80 for the application
-EXPOSE 80
+EXPOSE 8080
 
 # Command to run the application
 ENTRYPOINT ["dotnet", "MeterProService.dll"]
