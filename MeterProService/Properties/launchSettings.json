@@ -1,0 +1,37 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  
+    "ConnectionStrings": {
+      "MyAzureSqlConnection": "Data Source=insuresagedb.database.windows.net;Initial Catalog=master;User ID=insuresageadmin;Password=Avecsage1@;"
+    },
+    // Other configurations may be present in your appsettings.json
+
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:32242",
+      "sslPort": 44307
+    }
+  },
+  "profiles": {
+    "MeterProService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "api/Trip/allTrip",
+      "applicationUrl": "https://localhost:7048;http://127.0.0.1:5047",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/Trip/allTrip",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

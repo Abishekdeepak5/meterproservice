@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MeterProService/obj
+/.vs
+/MeterProService/bin/Debug/net6.0
+/MeterProService/bin/Debug/net7.0
